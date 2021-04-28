@@ -5,6 +5,6 @@
 5. python manage.py fill_tags_and_addr
 6. python manage.py runserver
 
-http://127.0.0.1:8000/api/v1/places/ will show place list
-
 http://127.0.0.1:8000/api/v1/place/ will create place
+
+http://127.0.0.1:8000/api/v1/places/ will show place list
