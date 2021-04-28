@@ -8,3 +8,5 @@
 http://127.0.0.1:8000/api/v1/place/ for create place
 
 http://127.0.0.1:8000/api/v1/places/ for show a place list
+
+Example: GET /api/v1/places/?ordering=-is_prefer,distance&search=russet-pigeon
