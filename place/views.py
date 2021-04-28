@@ -13,7 +13,7 @@ class PlaceListAPIView(generics.ListAPIView):
     queryset = Place.objects.all()
     filter_backends = [filters.SearchFilter, filters.OrderingFilter]
     search_fields = ['tag__name']
-    ordering_fields = ['distance']
+    ordering_fields = ['distance', 'is_prefer']
 
 
 class CreatePlaceAPIView(generics.CreateAPIView):
